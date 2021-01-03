@@ -1,0 +1,92 @@
+* {
+  list-style: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #b5495b;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+}
+
+.navbar .logo {
+  color: bisque;
+}
+
+.navbar .search-input {
+  text-decoration: none;
+  padding: 8px;
+  background-color: #fff;
+  color: #854836;
+  border-style: none;
+  border-radius: 8px;
+}
+
+.navbar .search-bar .search-btn {
+  text-decoration: none;
+  padding: 8px;
+  background-color: #fedfe1;
+  color: #854836;
+  border-style: none;
+  border-radius: 8px;
+}
+
+.navbar .nav-btn,
+.navbar .nav-btn:hover,
+.navbar .nav-btn:visited {
+  text-decoration: none;
+  padding: 8px;
+  background-color: #fedfe1;
+  color: #854836;
+  border-radius: 8px;
+}
+
+.row .item {
+  padding: 5px 0px;
+  position: relative;
+}
+
+.row .item .txt h3 {
+  font-size: 20px;
+}
+
+.row .item .txt a,
+.row .item .txt a:hover,
+.row .item .txt a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.row .item .txt p {
+  font-size: 16px;
+}
+
+.row .item .length {
+  position: absolute;
+  top: 600px;
+  left: 1120px;
+  padding: 0 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+.item .txt .detail {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+}
+
+.video-category {
+  margin-bottom: 10px;
+}
+
+.page-number button {
+  height: 20px;
+  width: 40px;
+  padding: 2px;
+  margin: 2px;
+  border: 2px solid #ddd;
+  border-radius: 2px;
+  text-align: center;
+}
